@@ -106,12 +106,15 @@ nav a{
   display: inline-block;
 }
 
+#sub h1{
+  font-size: 15px;
+}
+
 #sub h3{
-  font-size: 1.6vw;
+  width: max-content;
 }
 
 #aboutme{
-  font-size: 1.2vw;
   margin-top: 10px;
   width: 50vw;
   font-weight: 200;
@@ -153,10 +156,11 @@ nav a{
 }
 
 #myLinks{
-  position: absolute;
+  width: 100%;
+  position: relative;
   display: flex;
   gap: 15px;
-  bottom: 5%;
+  top: 20%;
 }
 
 #logo{

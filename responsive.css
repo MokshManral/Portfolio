@@ -1,4 +1,39 @@
 @media (max-width:480px) {
+  #sub{
+    width: 100%;
+  }
+
+  #sub h1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 35px;
+  }
+
+  #sub h3{
+    justify-content: center;
+    width: 100%;
+  }
+
+  #aboutme{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+  }
+
+  #contactButton{
+    width: 200px;
+  }
+  #twoButton{
+    display: flex;
+    justify-content: center;
+  }
+
+  #myLinks{
+    justify-content: center;
+  }
+
   #pic{
     display :none;
   }
@@ -20,9 +55,6 @@
     width: 70px;
   }
 
-  #aboutme{
-    font-size: 8px;
-  }
   nav{
     display: flex;
     align-items: center;
@@ -39,24 +71,13 @@
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     display: flex;
-    justify-content: end;
     text-transform: capitalize;
   }
   
   #twoButton{
     margin-top: 25px;
   }
-  
-  #contactButton{
-    height: 35px;
-    width: 150px;
-    cursor: pointer;
-    background-color: #ffffff;
-    border: none;
-  }
-  
-  
-  
+
   #logo{
     padding: 20px;
     color: rgb(255, 255, 255);
@@ -174,12 +195,31 @@
 }
 
 @media (min-width:481px) and (max-width:768px) {
-  
-  #pic{
-    display: none;
+  #myName{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #sub h3{
+    display: flex;
+    justify-content: center;
+    width: 100%;
   }
   #aboutme{
-    font-size: 10px;
+    width: 100%;
+  }
+
+  #myLinks{
+    justify-content: center;
+  }
+
+  #twoButton{
+    display: flex;
+    justify-content: center;
+  }
+  #pic{
+    display: none;
   }
 
   #firstPage{
