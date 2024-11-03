@@ -7,10 +7,12 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    font-size: 35px;
+    font-size: 8vw;
   }
 
   #sub h3{
+    font-size: 10px;
+    margin-top: 5px;
     justify-content: center;
     width: 100%;
   }
@@ -201,7 +203,12 @@
     text-align: center;
   }
 
+  #sub h1{
+    font-size: 8vw;
+  }
   #sub h3{
+    margin-top: 5px;
+    font-size: 15px;
     display: flex;
     justify-content: center;
     width: 100%;
@@ -240,14 +247,15 @@
   }
 }
 
-@media (min-width:769px) {
-  #pic img{
+@media (min-width:769px) and (max-width:1024px){
+  #pic{
     display: block;
-    width: 700px;
+    width: 500px;
   }
-  #pic img{
-    position: relative;
-    bottom: 0;
-    left: 10%;
+}
+
+@media (min-width:1025px) and (max-width:1440px){
+  #pic{
+    width: 600px;
   }
 }
