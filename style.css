@@ -103,7 +103,7 @@ nav a{
 
 #sub{
   line-height: 0.8;
-  display: inline-block;
+  width: max-content;
 }
 
 #sub h1{
@@ -111,12 +111,13 @@ nav a{
 }
 
 #sub h3{
-  width: max-content;
+  display: flex;
+  width: 100%;
 }
 
 #aboutme{
   margin-top: 10px;
-  width: 50vw;
+  width: 600px;
   font-weight: 200;
 }
 
@@ -252,17 +253,44 @@ h3{
 /* for project.html */
 #page{
   background: var(--background-color);
-  height: 100vh;
+  height: auto;
+  padding: 10px 50px;
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
-h1{
+#page h1{
   color: white;
-  font-size: 3vw;
+  font-size: 2vw;
+}
+
+#page h2{
+  margin-top: 2rem;
+  color: rgb(20, 169, 228);
+}
+
+#page p{
+  margin: 0.5rem 0;
+  color: #5585ff;
+}
+
+#page #image-showcase{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#page img{
+  height: 25rem;
+}
+
+#page video{
+  width: 60%;
+  display: block;
+}
+
+#page a{
+  color: #0091df;
+  margin-top: 2rem;
 }
 
 #buttontohome button{
