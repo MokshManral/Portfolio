@@ -15,6 +15,7 @@ html{
 }
 
 body{
+  background-color: var(--background-color);
   height: 100vh;
 }
 
@@ -253,60 +254,24 @@ h3{
 /* for project.html */
 #page{
   background: var(--background-color);
-  height: auto;
-  padding: 10px 50px;
+  height: 100vh;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #page h1{
   color: white;
-  font-size: 2vw;
-}
-
-#page h2{
-  margin-top: 2rem;
-  color: rgb(20, 169, 228);
-}
-
-#page p{
-  margin: 0.5rem 0;
-  color: #5585ff;
-}
-
-#page #image-showcase{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-#page img{
-  height: 25rem;
-}
-
-#page video{
-  width: 60%;
-  display: block;
+  font-size: 3vw;
 }
 
 #page a{
-  color: #0091df;
-  margin-top: 2rem;
-}
-
-#buttontohome button{
-  font-size: 1vw;
-  margin-top: 1vw;
-  padding: 10px 20px;
-  background-color:#009cf0;
-  border: 1px solid white;
-}
-
-#buttontohome button:hover{
-  background-color:#0091df;
-}
-
-#buttontohome button a{
-  color: white;
+  margin-top: 1rem;
+  background-color: var(--second);
+  border: 1px solid white; 
+  padding: 10px 15px;
 }
 
 /* contact us */
