@@ -190,13 +190,6 @@ nav a{
   transition: .5s ease-in-out;
 }
 
-#pic{
-  width: 600px;
-  position: absolute;
-  bottom: 0%;
-  right: 100px;
-  filter:drop-shadow(5px 5px black);
-}
 
 /* about.html */
 #secondPage{
@@ -239,12 +232,6 @@ section{
   padding: 20px 0px;
 }
 
-h3{
-  text-transform: capitalize;
-  font-weight: bold;
-  font-size: 1.5vw;
-  margin-bottom: 5px;
-}
 
 #about{
   font-weight: 100;

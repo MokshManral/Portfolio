@@ -1,42 +1,42 @@
 @media (max-width:480px) {
-  #sub{
+  .sub{
     width: 100%;
   }
 
-  #sub h1{
+  .sub h1{
     display: flex;
     justify-content: center;
     width: 100%;
     font-size: 8vw;
   }
 
-  #sub h3{
+  .sub h3{
     font-size: 10px;
     margin-top: 5px;
     justify-content: center;
     width: 100%;
   }
 
-  #aboutme{
+  .aboutme{
     display: flex;
     text-align: center;
     width: 100%;
     font-size: 18px;
   }
 
-  #contactButton{
+  .contactButton{
     width: 200px;
   }
-  #twoButton{
+  .twoButton{
     display: flex;
     justify-content: center;
   }
 
-  #myLinks{
+  .myLinks{
     justify-content: center;
   }
 
-  #pic{
+  .pic{
     display :none;
   }
   header{
@@ -49,10 +49,10 @@
     font-size: 2vw;
   }
 
-  a #headerbutton{
+  a .headerbutton{
     font-size: 8px;
   }
-  #headerbutton{
+  .headerbutton{
     height: 20px;
     width: 70px;
   }
@@ -68,7 +68,7 @@
   }
   
   
-  #myName h3{
+  .myName h3{
     color: #c3f8ff;
     font-family: "Roboto", sans-serif;
     font-weight: 300;
@@ -76,21 +76,21 @@
     text-transform: capitalize;
   }
   
-  #twoButton{
+  .twoButton{
     margin-top: 25px;
   }
 
-  #logo{
+  .logo{
     padding: 20px;
     color: rgb(255, 255, 255);
     font-size: 20px;
   }
   
-  #logo:hover{
-    color: #000;
+  .logo:hover{
+    color: .000;
   }
   
-  #contact1{
+  .contact1{
     border: 1px solid white;
     width: 60px;
     height: 60px;
@@ -100,12 +100,12 @@
     justify-content: center;
   }
   
-  #contact1:hover{
+  .contact1:hover{
     background-color:rgb(255, 255, 255);
     transition: .5s ease-in-out;
   }
   
-  #pic{
+  .pic{
     display: none;
     position: absolute;
     bottom: 0px;
@@ -114,7 +114,7 @@
   }
 
   /* about.html */
-  #secondPage{
+  .secondPage{
     padding: 0px 10px;
     width: 100%;
     height: 100vh;
@@ -122,25 +122,25 @@
     color: white;
   }
   
-  #headTwo{
+  .headTwo{
     display: flex;
     justify-content: center;
     color: rgb(255, 255, 255);
   }
   
-  #headTwo h1{
+  .headTwo h1{
     font-size: 5vw;
     text-transform: uppercase;
   }
   
-  #profile{
+  .profile{
     margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
   }
   
-  #profilepic{
+  .profilepic{
     padding: 10px;
     height: 50px;
     width: 50px;
@@ -153,14 +153,7 @@
     padding: 20px 0px;
   }
   
-  h3{
-    text-transform: capitalize;
-    font-weight: bold;
-    font-size: 4vw; 
-    margin-bottom: 5px;
-  }
-  
-  #about{
+  .about{
     font-weight: 100;
     font-size: 2vw;
   }
@@ -171,13 +164,13 @@
     font-size: 5vw;
   }
   
-  #buttontohome button{
+  .buttontohome button{
     font-size: 3vw;
     padding: 8px 20px;
   }
 
   /* contact.html */
-  #box{
+  .box{
     height: max-content;
     width: 90vw;
     background-color: #ffffff;
@@ -185,61 +178,61 @@
     border-radius: 10px;
   }
   
-  #logo2{
+  .logo2{
     margin: 0px 20px;
     font-size: 15px;
   }
   
-  #linkerButton{
+  .linkerButton{
     font-size: 10px;
   }
 
 }
 
 @media (min-width:481px) and (max-width:768px) {
-  #myName{
+  .myName{
     display: flex;
     flex-direction: column;
     text-align: center;
   }
 
-  #sub h1{
+  .sub h1{
     font-size: 8vw;
   }
-  #sub h3{
+  .sub h3{
     margin-top: 5px;
     font-size: 15px;
     display: flex;
     justify-content: center;
     width: 100%;
   }
-  #aboutme{
+  .aboutme{
     width: 100%;
   }
 
-  #myLinks{
+  .myLinks{
     justify-content: center;
   }
 
-  #twoButton{
+  .twoButton{
     display: flex;
     justify-content: center;
   }
-  #pic{
+  .pic{
     display: none;
   }
 
-  #firstPage{
+  .firstPage{
     padding: 0px 8vw;
   }
 
   header h4{
     font-size: 1.8vw;
   }
-  #foranimation{
+  .foranimation{
     font-size: 1.8vw;
   }
-  #headerbutton{
+  .headerbutton{
     font-size: 8px;
     padding: 8px 15px;
     height: 25px;
@@ -248,14 +241,14 @@
 }
 
 @media (min-width:769px) and (max-width:1024px){
-  #pic{
+  .pic{
     display: block;
     width: 500px;
   }
 }
 
 @media (min-width:1025px) and (max-width:1440px){
-  #pic{
+  .pic{
     width: 600px;
   }
 }
