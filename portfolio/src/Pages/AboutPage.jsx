@@ -1,4 +1,3 @@
-import { Link } from 'react-router';
 import './AboutPage.css'
 
 export function AboutPage() {
