@@ -1,5 +1,5 @@
 import { Link } from 'react-router';
-import RobotImage from '../../public/robot.png'
+import RobotImage from '../assets/images/robot.png'
 import './HomePage.css'
 
 export function HomePage() {

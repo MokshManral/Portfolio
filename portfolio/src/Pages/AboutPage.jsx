@@ -1,5 +1,4 @@
 import { Link } from 'react-router';
-import RobotImage from '../../public/robot.png'
 import './AboutPage.css'
 
 export function AboutPage() {
